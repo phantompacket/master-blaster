@@ -12,6 +12,10 @@ clear
 
 cat out2.txt | colrm 1 31 >> results.txt
 
+rm out1.txt && rm out2.txt && rm paused.conf
+
+clear
+
 cat results.txt | colrm 20 100
 
 nmap -Pn -sS -F -iL /root/results.txt
