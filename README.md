@@ -1,4 +1,13 @@
 # master-blaster
+#  
+#
+#
+#    =INSTALLATION INSTRUCTIONS=
+#    --KEEP IN /root DIRECTORY--
+#     cd master-blaster
+#     chmod +x master-blaster.sh
+#     ./master-blaster.sh
+#
 # -Automated large-scale scanner
 # -Select a port or number of ports - EXAMPLE: 22     OR     22,23,80,5900
 # -Uses MASSCAN for super fast tcp-syn scanning, building your origina target list
